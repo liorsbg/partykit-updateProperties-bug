@@ -4,12 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "client:dev": "vite",
+    "server:dev": "partykit dev",
+    "dev": "pnpm run --parallel \"/.*:dev/\"",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "partykit": "^0.0.77",
+    "partysocket": "^0.0.24",
+    "random-word-slugs": "^0.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

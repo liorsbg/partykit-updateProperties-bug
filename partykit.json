@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "react-vite-ts-party",
+  "main": "party/main.ts",
+  "parties": {
+    "other": "party/other.ts"
+  },
+  "compatibilityDate": "2024-01-19",
+  "port": 5999
+}
